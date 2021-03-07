@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotLocal", "DotLocal\DotLoc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotLocal.Tests", "DotLocal.Tests\DotLocal.Tests.csproj", "{CEBE3571-F9D5-4603-82EF-D667FEE01A56}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "..\build\_build.csproj", "{DC5B2B92-577F-4CD1-9488-A7D8CD30A0F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC5B2B92-577F-4CD1-9488-A7D8CD30A0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5B2B92-577F-4CD1-9488-A7D8CD30A0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5B78513-8CC7-4310-A009-5F82FB04A083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E5B78513-8CC7-4310-A009-5F82FB04A083}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5B78513-8CC7-4310-A009-5F82FB04A083}.Debug|x64.ActiveCfg = Debug|Any CPU
